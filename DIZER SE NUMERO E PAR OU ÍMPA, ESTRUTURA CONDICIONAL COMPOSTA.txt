@@ -1,0 +1,15 @@
+algoritmo "DIZER SE NUMERO E PAR OU ÍMPA, ESTRUTURA CONDICIONAL COMPOSTA"
+var
+   numero: inteiro
+
+inicio
+   Escreva("Qual e o numero ? ")
+   Leia(numero)
+   // ESTRUTURA CONDICIONAL COMPOSTA
+   se (numero % 2 = 0) então
+      Escreva ("o numero e",numero," par")
+   senao
+      Escreva ("o numero e",numero," ímpar")
+   fimse
+
+fimalgoritmo

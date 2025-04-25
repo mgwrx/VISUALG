@@ -1,0 +1,36 @@
+Algoritmo "ESTRUTURA CONDICIONAL ESCOLHA CASO - DEPEDENTES FUNCIONARIO"
+// Disciplina   : [Linguagem e Lógica de Programação, Linguagem Portugol.]
+// Professor   : Marcelo Augusto 
+// Descrição   : CALCULAR QUANTIDADE DE FUCIONARIOS PARA SABER BASE SALARIA
+// Autor(a)    : Marcelo Augusto
+// Data atual  : 15/03/2025
+Var
+// Seção de Declarações das variáveis 
+   Nome: caractere
+   Salario,Novo_Salario: real
+   Departamento:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   Escreva("Qual o nome do Fucionario? ")
+   Leia(Nome)
+   Escreva("Qual o Salario do Funcionario? R$ ")
+   Leia(Salario)
+   Escreva("Qual e a quantidade de dependentes? ")
+   Leia(Departamento)
+   Escolha Departamento
+           Caso 0
+                Novo_Salario <- Salario + (Salario*5/100)
+           Caso 1,2,3
+                Novo_Salario <- Salario + (Salario*10/100)
+           Caso 4,5,6
+                Novo_Salario <- Salario + (Salario*15/100)
+           OutroCaso
+               Novo_Salario <- Salario + (Salario*18/100)
+   FimEscolha
+   Escreval("------------------------------")
+   Escreval("O NOVO SALARIO R$ ",Nome," SERA DE R$ " , Novo_Salario:5:2)
+   Escreval("------------------------------")
+   
+
+Fimalgoritmo

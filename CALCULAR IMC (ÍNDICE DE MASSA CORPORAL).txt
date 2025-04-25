@@ -1,0 +1,21 @@
+algoritmo "CALCULAR IMC(ÍNDICE DE MASSA CORPORAL)"
+var
+peso,altura,IMC: real
+
+inicio
+Escreva("Qual e o Peso ? ")
+Leia(peso)
+Escreva("Qual e o Altura ? ")
+Leia(altura)
+// Converte a altura para metros
+altura <- altura / 100
+IMC <- peso / (altura * altura)
+EscrevaL ("IMC: ",IMC:5:2)
+// ESTRUTURA CONDICIONAL COMPOSTA
+se (IMC >= 18.5) e (IMC < 25) entao
+   Escreva ("Voce não esta acima do Peso ")
+senao
+   Escreva ("Voce esta acima do Peso ")
+fimse
+
+fimalgoritmo

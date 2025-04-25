@@ -1,0 +1,47 @@
+Algoritmo "APROVEITAMENTO DO ALUNO"
+// Disciplina   : [Linguagem e Lógica de Programação, Linguagem Portugol.]
+// Professor   : Marcelo Augusto
+// Descrição   : CALCULAR NOTA DE ALUNO COM AS LETRAS A,B,C,D,E,F
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 17/03/2025
+Var
+   // Seção de Declarações das variáveis
+   media,primeira_nota,segunda_nota: REAL
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("---------COLEGIO MADRUGA----------")
+   Escreval("Primeira Nota: ")
+   leia(primeira_nota)
+   Escreval("Segunda Nota: ")
+   leia(segunda_nota)
+   Escreval("----------------------------------")
+
+   media <- (primeira_nota + segunda_nota) / 2
+   escreval("MEDIA",media)
+
+   se(media >= 10)Entao
+      escreval("APROVEITAMENTO A")
+   senao
+      se(media >= 9) e (media <10)Entao
+         escreval("APROVEITAMENTO B")
+      senao
+         se(media >= 8) e (media <9)Entao
+            escreval("APROVEITAMENTO C")
+         senao
+            se(media >= 7) e (media <8)Entao
+               escreval("APROVEITAMENTO D")
+            senao
+               se(media >= 6) e (media <7)Entao
+                  escreva("APROVEITAMENTO E")
+               senao
+                  se(media <= 5) e (media <6)Entao
+                     escreval("APROVEITAMENTO F")
+                  fimse
+               fimse
+            fimse
+         fimse
+      fimse
+   fimse
+   Escreval("----------------------------------")
+Fimalgoritmo

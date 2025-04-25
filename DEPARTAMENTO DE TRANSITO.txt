@@ -1,0 +1,21 @@
+algoritmo "DEPARTAMENTO DE TRANSITO"
+var
+   ano_atual, ano_nascimento, idade: inteiro
+inicio
+      Escreval("---------------------------")
+      Escreval("DEPARTAMENTO DE TRANSITO")
+      Escreval("---------------------------")
+      Escreva("Ano Atual: ")
+      leia(ano_atual)
+      Escreva("Ano de Nascimento: ")
+      leia(ano_nascimento)
+      Escreval("----------STATUS-------------")
+      idade <- ano_atual - ano_nascimento
+      Escreval("IDADE: ",idade," ANOS")
+      se (idade < 18)entao
+         Escreva("INAPTO A TIRAR CARTEIRA")
+      senao
+           Escreva("APTO A TIRAR CARTEIRA")
+      fimse
+
+fimalgoritmo

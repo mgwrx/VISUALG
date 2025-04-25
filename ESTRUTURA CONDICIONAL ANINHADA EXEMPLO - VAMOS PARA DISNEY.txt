@@ -1,0 +1,24 @@
+Algoritmo "ESTRUTURA CONDICIONAL ANINHADA EXEMPLO - VAMOS PARA DISNEY"
+// Disciplina   : [Linguagem e Lógica de Programação, Linguagem Portugol.] 
+// Professor   : Marcelo Augusto
+// Descrição   : CALCULAR SE POSSO VIAJAR
+// Autor(a)    : Marcelo Augusto
+// Data atual  : 15/03/2025
+Var
+   // Seção de Declarações das variáveis
+   dinheiro: real
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreva ("quanto dinheiro voce tem ? ")
+   leia(dinheiro)
+   se (dinheiro >= 10000)entao
+      Escreva("Partiu Disney")
+   senao
+      se(dinheiro >= 5000) e (dinheiro < 10000)entao
+         escreva("Visitar familia")
+      senao
+         Escreva("vou ficar em casa")
+      fimse
+   fimse
+Fimalgoritmo

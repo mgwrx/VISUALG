@@ -1,0 +1,12 @@
+algoritmo "CALCULAR A PORCENTAGEM DE IMPOSTO DE UM PRODUTO FORMATADA"
+var
+   porcentagem,valor,resultado: real
+
+inicio
+   Escreva("QUAL E O VALOR DO PRODUTO ? ")
+   leia(valor)
+   Escreva("QUAL E A PORCENTAGEM ? ")
+   leia(porcentagem)
+   resultado <- (valor*porcentagem)/100
+   Escreva("O INPOSTO SERÁ DE R$", resultado:5:2," PORCENTO")
+fimalgoritmo

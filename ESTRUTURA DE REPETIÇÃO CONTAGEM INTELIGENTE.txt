@@ -1,0 +1,37 @@
+Algoritmo "ESTRUTURA DE REPETIÇÃO CONTAGEM INTELIGENTE"
+// Disciplina   : [Linguagem e Lógica de Programação, Linguagem Portugol.]
+// Professor   : Marcelo Augusto
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 18/03/2025
+Var
+   // Seção de Declarações das variáveis
+   contador, N1,N2:inteiro
+
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval ("   CONTAGEM INTELIGENTE   ")
+   escreval ("--------------------------")
+   escreva  ("Inicio: ")
+   leia(N1)
+   escreva ("Fim: ")
+   leia(N2)
+   escreval ("--------------------------")
+   escreval ("         CONTANDO         ")
+   escreval ("--------------------------")
+   se (N1 <= 0 ) entao
+      Enquanto (contador <= N2) faca
+         escreva(contador)
+         contador <- contador +1
+      fimenquanto
+   senao
+      se (N1 > 0 ) entao
+         contador <- N1
+         Enquanto (contador >= N2) faca
+            escreva(contador)
+            contador <- contador -1
+         fimenquanto
+      fimse
+   fimse
+Fimalgoritmo

@@ -1,0 +1,28 @@
+algoritmo "CALCULAR A MEDIA DO ALUNO - ESCOLA JAVALI CANSADO"
+// Disciplina   : [Linguagem e Lógica de Programação, Linguagem Portugol.]
+// Professor   : Marcelo Augusto
+// Descrição   : CALCULAR A MEDIA DO ALUNO
+// Autor(a)    : Marcelo Augusto
+// Data atual  : 15/03/2025
+Var
+// Seção de Declarações das variáveis
+   primeira_nota, segunda_nota, media: real
+inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+      Escreval("---------------------------")
+      Escreval("ESCOLA JAVALI CANSADO")
+      Escreval("---------------------------")
+      Escreva("PRIMEIRA NOTA: ")
+      leia(primeira_nota)
+      Escreva("SEGUNDA NOTA: ")
+      leia(segunda_nota)
+      Escreval("----------STATUS-----------")
+      media <- primeira_nota+segunda_nota /2
+      Escreval("MEDIA: ",media)
+      se (media < 7)entao
+         Escreva("ALUNO REPROVADO!!!")
+      senao
+           Escreva("ALUNO APROVADO!!!")
+      fimse
+
+fimalgoritmo

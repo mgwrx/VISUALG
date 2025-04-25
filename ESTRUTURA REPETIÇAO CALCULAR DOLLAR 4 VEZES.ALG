@@ -1,0 +1,24 @@
+algoritmo "ESTRUTURA REPETIÇAO CALCULAR DOLLAR 4 VEZES"
+// Disciplina   : [Linguagem e Lógica de Programação, Linguagem Portugol.]
+// Professor   : Marcelo Augusto
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 18/03/2025
+Var
+   // Seção de Declarações das variáveis
+   reais,dolares,resultado,quantidade: real
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   quantidade <- 1
+   enquanto (quantidade <= 4 ) faca
+      Escreva("Qual e valor do dollar ? ")
+      leia(dolares)
+      Escreva("Quantos reais eu tenho ? ")
+      leia(reais)
+      resultado <- reais /dolares
+      Escreval("eu tenho", resultado," dolares")
+      quantidade <- quantidade + 1
+   fimenquanto
+
+fimalgoritmo

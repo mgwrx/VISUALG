@@ -1,0 +1,10 @@
+algoritmo "calcular Temperatura Fahrenheit Formatada"
+var
+   Celsus,Fahrenheit,A,B: real
+
+inicio
+   Escreva("QUAL E A TEMPERATURA ? ")
+   leia(Fahrenheit)
+   Celsus <- (Fahrenheit - 32)/1.8
+   Escreva("NO BRASIL ESTARIA ", Celsus," CELSUS")
+fimalgoritmo

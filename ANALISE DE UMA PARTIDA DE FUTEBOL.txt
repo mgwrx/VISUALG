@@ -1,0 +1,66 @@
+Algoritmo "ANALISE DE UMA PARTIDA DE FUTEBOL"
+// Disciplina   : [Linguagem e Lógica de Programação, Linguagem Portugol.]
+// Professor   : Marcelo Augusto
+// Descrição   : CALCULAR NOTA DE ALUNO COM AS LETRAS A,B,C,D,E,F
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 17/03/2025
+Var
+   // Seção de Declarações das variáveis
+   diferenca,Time1_gols,Time2_gols, Time1, Time2: inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("-------------ANALISE--------------")
+   Escreval("QUAL E NOME DO PRIMEIRO TIME: ")
+   leia(Time1)
+   Escreval("QUANTOS DE GOLS: ")
+   leia(Time1_gols)
+   Escreval("QUAL E NOME DO SEGUNDO TIME: ")
+   leia(Time2)
+   Escreval("QUANTOS DE GOLS: ")
+   leia(Time2_gols)
+   Escreval("----------------------------------")
+
+   diferenca <- abs(Time1_gols - Time2_gols)
+   escreval("DIFERENÇA: ",diferenca)
+
+   se(diferenca = 0)Entao
+      Escreval("STATUS: EMPATE")
+   Senao
+      Se (diferenca <= 1) Então
+         Escreval("STATUS: PARTIDA NORMAL")
+      senao
+         Se (diferenca <= 2) Então
+            Escreval("STATUS: PARTIDA NORMAL")
+         Senao
+            Se (diferenca <= 3) Então
+               Escreval("STATUS: PARTIDA NORMAL")
+            senao
+               Se (diferenca <= 4) Então
+                  Escreval("STATUS: GOLEADA")
+               Senao
+                  Se (diferenca <= 5) Então
+                     Escreval("STATUS: GOLEADA")
+                  senao
+                     Se (diferenca <= 6) Então
+                        Escreval("STATUS: GOLEADA")
+                     Senao
+                        Se (diferenca <= 7) Então
+                           Escreval("STATUS: GOLEADA")
+                        senao
+                           Se (diferenca <= 8) Então
+                              Escreval("STATUS: GOLEADA")
+
+                           fimse
+                        fimse
+                     fimse
+                  fimse
+               fimse
+            fimse
+         fimse
+      fimse
+   fimse
+
+
+Escreval("----------------------------------")
+Fimalgoritmo

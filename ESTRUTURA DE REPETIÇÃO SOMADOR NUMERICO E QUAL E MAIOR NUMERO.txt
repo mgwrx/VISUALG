@@ -1,0 +1,30 @@
+Algoritmo "ESTRUTURA DE REPETIÇÃO SOMADOR NUMERICO E QUAL E MAIOR NUMERO"
+// Disciplina   : [Linguagem e Lógica de Programação, Linguagem Portugol.]
+// Professor   : Marcelo Augusto
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 18/03/2025
+Var
+   // Seção de Declarações das variáveis
+   cont,maior, N,S:inteiro
+
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+
+   cont <- 1
+   S <- 0
+
+   Enquanto (cont <= 5) faca
+      escreva("Contar ate o Numero: ")
+      leia(N)
+      se (N > maior)entao
+         maior <- N
+      fimse
+      S <- S + N
+      cont <- cont + 1
+   fimenquanto
+   escreval("---------------------------")
+   escreval(" Terminei de Contar", S )
+   escreval(" o numero maior foi", maior )
+fimalgoritmo

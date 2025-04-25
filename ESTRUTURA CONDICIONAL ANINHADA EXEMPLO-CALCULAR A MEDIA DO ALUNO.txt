@@ -1,0 +1,24 @@
+algoritmo "ESTRUTURA CONDICIONAL ANINHADA EXEMPLO-CALCULAR A MEDIA DO ALUNO"
+var
+   primeira_nota, segunda_nota, media: real
+inicio
+   Escreval("---------------------------")
+   Escreval("ESCOLA JAVALI CANSADO")
+   Escreval("---------------------------")
+   Escreva("PRIMEIRA NOTA: ")
+   leia(primeira_nota)
+   Escreva("SEGUNDA NOTA: ")
+   leia(segunda_nota)
+   Escreval("----------STATUS-----------")
+   media <- (primeira_nota + segunda_nota) /2
+   Escreval("MEDIA: ",media)
+   se (media >= 7)entao
+      Escreva("ALUNO APROVADO!!!")
+   senao
+      se (media >=5) e (media < 7)entao
+         Escreva("ALUNO RECUPERAÇÃO!!!")
+      senao
+         Escreva ("ALUNO REPROVADO")
+      fimse
+   fimse
+fimalgoritmo

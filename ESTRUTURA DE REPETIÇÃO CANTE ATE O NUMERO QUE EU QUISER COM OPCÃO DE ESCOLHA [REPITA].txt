@@ -1,0 +1,58 @@
+Algoritmo "ESTRUTURA DE REPETIÇÃO PARTE2 CANTE ATE O NUMERO QUE EU QUISER COM OPCÃO DE ESCOLHA [REPITA]"
+// Disciplina   : [Linguagem e Lógica de Programação, Linguagem Portugol.]
+// Professor   : Marcelo Augusto
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 18/03/2025
+Var
+   // Seção de Declarações das variáveis
+   contador, numero1, numero2:inteiro
+   ESCL:caractere
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   REPITA
+      escreval("--------------------------------")
+      escrevaL("ESCOLHA A LETRA PARA CADA FUNÇÃO")
+      escreval("--------------------------------")
+      escreval("                                ")
+      escrevaL("[A] ELE CONTARA 0 A INFINITO.    ")
+      escrevaL("[B] ELE CONTARA DO INFINITO A 0. ")
+      escrevaL("[S] SAIR.")
+      escreva("ESCOLHA A LETRA:")
+      leia (ESCL)
+      se (ESCL = "A") ou (ESCL = "a")entao
+         enquanto (ESCL = "A") ou (ESCL = "a")faca
+            escreva("Contar ate o Numero ? ")
+            leia(numero1)
+            Enquanto (contador <= numero1) faca
+               escreval(contador)
+               contador <- contador +1
+            fimenquanto
+            escreval(" Terminei de contar")
+            leia (ESCL)
+         fimenquanto
+      senao
+         se (ESCL = "B") ou (ESCL = "b")entao
+            enquanto (ESCL = "B") ou (ESCL = "b")faca
+               escreva("Contar ate o Primeiro Numero ? ")
+               leia(numero1)
+               escreva("Contar ate o Segundo Numero ? ")
+               leia(numero2)
+               contador <- numero1
+               Enquanto (contador >= numero2) faca
+                  escreval(contador)
+                  contador <- contador -1
+               fimenquanto
+               escreval(" Terminei de contar")
+               leia (ESCL)
+            fimenquanto
+         senao
+            se (ESCL = "S") ou (ESCL = "s")entao
+               LIMPATELA
+               escreval("  FIM DO PROGRAMA!!!  ")
+            fimse
+         fimse
+      fimse
+   ATE(ESCL ="S")
+fimalgoritmo

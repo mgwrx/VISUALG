@@ -1,0 +1,17 @@
+algoritmo " COMO CALCULAR EMPRESTIMO"
+var
+   taxa_mensal,juros,valor,resultado,parcela: real
+   // FORMULA DE MATEMATICA = M=P×(1+r)
+   //taxa_mensal =  E O VALOR * JUROS /100
+   // RESULTADO = taxa_mensal + VALOR / PARCELA
+inicio
+   Escreva("QUAL E O VALOR DO EMPRESTIMO ? ")
+   leia(valor)
+   Escreva("QUAL E A PORCENTAGEM DE ACRESCIMO DE JUROS ? ")
+   leia(juros)
+   Escreva("QUAL E A QUANTIDADE DE PARCELA ? ")
+   leia(parcela)
+   taxa_mensal <- valor * (juros /100)
+   resultado <-  (taxa_mensal + valor) / parcela
+   Escreva("VOU PAGAR ",parcela, " PARCELAS DE R$", resultado)
+fimalgoritmo

@@ -1,0 +1,14 @@
+algoritmo "ESTRUTURA CONDICIONAL COMPOSTA"
+var
+   dinheiro: inteiro
+inicio
+   Escreva("quanto dinheiro voce tem ?")
+   Leia(dinheiro)
+   // ESTRUTURA CONDICIONAL COMPOSTA
+   se(dinheiro >= 10000)entao
+      Escreva ("Partiu Disney")
+   senao
+      Escreva ("#chateado")
+   fimse
+
+fimalgoritmo

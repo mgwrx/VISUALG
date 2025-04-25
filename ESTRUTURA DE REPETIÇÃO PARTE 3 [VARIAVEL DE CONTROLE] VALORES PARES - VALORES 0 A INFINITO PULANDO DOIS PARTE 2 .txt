@@ -1,0 +1,31 @@
+Algoritmo "ESTRUTURA DE REPETIÇÃO PARTE 3 [VARIAVEL DE CONTROLE] VALORES PARES - VALORES 0 A INFINITO PULANDO DOIS PARTE 2 "
+// Disciplina   : [Linguagem e Lógica de Programação, Linguagem Portugol.]
+// Professor   : Marcelo Augusto
+// Descrição   : VALORES PARES / VALORES INFINITO A 0
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 27/03/2025
+Var
+   // Seção de Declarações das variáveis
+   CONTAGEM:INTEIRO
+   NUMERO:INTEIRO
+   VALOR:INTEIRO
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval("============[VALORES 0 A INFINITO PULANDO DOIS]=============")
+   escreva("DIGITE UM VALOR: ")
+   leia(VALOR)
+   para CONTAGEM <- 0 ate VALOR passo 2 faca
+        escreval(CONTAGEM)
+   fimpara
+   // VALORES INFINITO A 0 PULANDO DOIS
+   escreval("============[VALORES INFINITO A 0 PULANDO DOIS]=============")
+   escreva("DIGITE UM VALOR: ")
+   leia(VALOR)
+   se (VALOR%2=1)entao
+      VALOR <- VALOR -1
+   fimse
+   para CONTAGEM <- VALOR ate 0 passo -2 faca
+        escreval(CONTAGEM)
+   fimpara
+
+Fimalgoritmo

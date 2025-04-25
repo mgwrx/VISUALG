@@ -1,0 +1,20 @@
+Algoritmo "ESTRUTURA DE REPETIÇÃO QUANTE ATE 10"
+// Disciplina   : [Linguagem e Lógica de Programação, Linguagem Portugol.]
+// Professor   : Marcelo Augusto
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 18/03/2025
+Var
+   // Seção de Declarações das variáveis
+   contador:inteiro
+
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   contador <- 0
+   Enquanto (contador <= 10) faca
+      escreval(contador)
+      contador <- contador +1
+   fimenquanto
+   escreval(" Terminei de contar")
+Fimalgoritmo

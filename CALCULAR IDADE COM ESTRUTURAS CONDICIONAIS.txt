@@ -1,0 +1,18 @@
+algoritmo "CALCULAR IDADE COM ESTRUTURAS CONDICIONAIS"
+var
+   ano_atual, ano_nascimento, idade: inteiro
+inicio
+      Escreva("Em que anos nos estamos? ")
+      leia(ano_atual)
+      Escreva("Em que ano voce nasceu? ")
+      leia(ano_nascimento)
+      idade <- ano_atual - ano_nascimento
+      Escreva("Em ",ano_atual," voce tera" ,idade," anos")
+      se (idade >= 18) entao
+         EscrevaL(" e voce é maior de idade")
+      senao
+           EscrevaL(" e voce é menor de idade")
+      fimse
+
+
+fimalgoritmo

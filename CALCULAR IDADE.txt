@@ -1,0 +1,13 @@
+algoritmo "idade"
+var
+   ano_atual, ano_nascimento, idade: inteiro
+
+
+inicio
+      Escreva("Em que anos nos estamos? ")
+      leia(ano_atual)
+      Escreva("Em que ano voce nasceu? ")
+      leia(ano_nascimento)
+      idade <- ano_atual - ano_nascimento
+      Escreva("minha idade sera", idade," anos")
+fimalgoritmo

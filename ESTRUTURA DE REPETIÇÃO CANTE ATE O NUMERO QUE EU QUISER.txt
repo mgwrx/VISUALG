@@ -1,0 +1,23 @@
+Algoritmo "ESTRUTURA DE REPETIÇÃO CANTE ATE O NUMERO QUE EU QUISER"
+// Disciplina   : [Linguagem e Lógica de Programação, Linguagem Portugol.]
+// Professor   : Marcelo Augusto
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 18/03/2025
+Var
+   // Seção de Declarações das variáveis
+   contador, numero:inteiro
+
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+
+   contador <- 0
+   escreval("Contar ate o Numero ? ")
+   leia(numero)
+   Enquanto (contador <= numero) faca
+      escreval(contador)
+      contador <- contador +1
+   fimenquanto
+   escreval(" Terminei de contar")
+Fimalgoritmo

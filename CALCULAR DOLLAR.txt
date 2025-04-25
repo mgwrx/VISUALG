@@ -1,0 +1,11 @@
+algoritmo "calcular dollar"
+var
+   reais,dolares,resultado: real
+inicio
+   Escreva("Qual e valor do dollar ? ")
+   leia(dolares)
+   Escreva("Quantos reais eu tenho ? ")
+   leia(reais)
+   resultado <- reais /dolares
+   Escreva("eu tenho", resultado," dolares")
+fimalgoritmo
